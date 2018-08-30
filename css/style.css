@@ -1,0 +1,136 @@
+@import url(Navbar.css);
+@import url(bootstrap.min.css);
+@import url(Animation.css);
+@import url(page-1.css);
+@import url(page-2.css);
+@import url(page-3.css);
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Amiri', serif;
+}
+p{
+    text-align: center;
+    color: black;
+}
+h3{
+    text-align: center;
+}
+.main-body {
+    background-image: url(../img/myback.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #6E848A;
+    color: white;
+}
+
+.Main-contain {
+    width: 100%;
+    padding: 20px;
+}
+.card-font {
+    font-family: 'Amiri', serif;
+}
+
+.uk-card-title {
+    font-family: 'Amiri', serif;
+}
+
+.show {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.slide-show {
+    margin: 10px;
+}
+
+@media(max-width:600px) {
+    
+    .main-body {
+        width: 100%;
+    }
+    .but{
+        width: 50%;
+    }
+    .uk-card-body {
+        height: 400px;
+        position: relative;
+    }
+    .mm{
+        height: 620px;
+    }
+    
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+/* Column Grids */
+/*-=-=-=-=-=-=-=-=-=-=-=- */
+
+.Counters {
+    border: 1px solid #595C60;
+    height: auto;
+    height: 220px;
+    background-color: #595C60;
+}
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+	position: relative;
+	display:inline;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper { width: 100%; margin: 30px auto; position: relative;}
+.counter { background-color: #ffffff; padding: 20px 0; border-radius: 5px;}
+.count-title { font-size: 40px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+
+
+.footer {
+    text-align: center;
+    height: 200px;
+}
+
+.input {
+    width: 25%;
+    height: 30px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border: none;
+    background-color: #F2ECFF;
+    color: black;
+}.input:active{
+    border-radius: 30px solid #00C896;
+}
+
+.textarea {
+    width: 50%;
+    height: 80px;
+    border-radius: 5px;
+    background-color: #F2ECFF;
+    border: none;
+}
+
+.countText {
+    color: black;
+}
+
+

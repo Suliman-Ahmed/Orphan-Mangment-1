@@ -1,0 +1,10 @@
+.third-contain {
+    margin: 10px auto;
+    width: 90vw;
+    opacity: 20%;
+}
+.third-body {
+    background-image: url(../img/back-3.png);
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,17 @@
+.fourth-body {
+    background-color: #7BB4C3;
+}
+
+.info-card {
+    height: 400px;
+    background-color: #7bb4c3;
+}
+
+.back-card {
+    background-color: #7bb4c3;
+}
+@media(max-width:600px) {
+    article{
+        height: 700px;
+    }
+}

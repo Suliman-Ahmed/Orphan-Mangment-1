@@ -1,0 +1,147 @@
+.sidelink {
+    position: fixed;
+    top: 50%;
+    right: -230px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.TextAlign {
+    text-decoration: none;
+}
+
+.sideul li {
+    list-style: none;
+    display: block;
+    height: auto;
+    width: 250px;
+    background: #ccc;
+    border: 1px solid black;
+    transition: 2s;
+}
+
+a i {
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.sideul li:hover {
+    text-decoration: none;
+    position: relative;
+    right: 100px;
+}
+
+.sideLinkText {
+    padding-left: 30px;
+}
+
+.sideLinkText:hover {
+    color: #fff;
+}
+
+.sideul li:nth-child(1) {
+    background: #3B5998;
+}
+
+.sideul li:nth-child(2) {
+    background: #55ACEE;
+}
+
+.sideul li:nth-child(3) {
+    background: #707070;
+}
+
+.sideul li:nth-child(4) {
+    background: #eede00;
+}
+
+.sideul li:nth-child(5) {
+    background: #bb0000;
+}
+/*** DropDown ***/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1
+}
+
+#DropDN:hover .dropdown-menu {
+    display: block;
+}
+
+#navbarDropdown {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding-left: 4px;
+}
+
+.nav-link:hover{
+    border-bottom: 1px solid crimson;
+    transition: 0.1s;
+}
+.navbar{
+    padding: 5px;
+}
+#but {
+    border: 1px solid #799A99;
+    color: #799A99;
+}#but:hover{
+    color: black;
+    background-color: #646F77;
+    transition: 0.6s;
+}
+@media (max-width: 600px){
+    a i {
+    font-size: 15px;
+    padding: 5px;
+    }
+    .sideLinkText {
+    padding-left: 10px;
+    }
+    .sidelink {
+    right: -254px;
+    }
+    .sideul li:hover {
+        right: 70px;
+    }
+    
+}
+
+
+
+
+
+#nave {
+    height: auto;
+    padding: 0;
+    margin: 0 a
+}

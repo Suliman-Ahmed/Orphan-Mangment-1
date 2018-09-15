@@ -61,6 +61,10 @@ h3{
     .mm{
         height: 620px;
     }
+    .center{
+        margin-left: 0;
+    }
+    
     
 }
 
@@ -133,4 +137,8 @@ h3{
     color: black;
 }
 
-
+.center{
+    margin-left: 53%;
+    text-align: center;
+    direction: rtl;
+}

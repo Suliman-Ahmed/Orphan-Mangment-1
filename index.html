@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="icon" href="img/6.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amiri|Lalezar" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -19,23 +20,25 @@
 <body class="main-body">
     <!-- Nav Bar-->
     <nav class="navbar navbar-expand-lg uk-background-secondary navbar-dark" id="nave">
-        <a class="navbar-brand" href="#"><img src="img/6.jpg" style="width: 40px;" class="rounded-circle"></a>
+        
         <button class="navbar-toggler but" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <center>
-                    <li class="nav-item active">
+            <form class="form-inline my-2 my-lg-0">
+                <button type="button" class="btn btn-outline-dark" id="but" style="margin-left:5px;">بحث</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="بحث" aria-label="Search">
+            </form>
+            <ul class="navbar-nav mr-auto center">
+
+                <li class="nav-item active">
                         <a class="nav-link" href="#">الرئيسية <span class="sr-only">(current)</span></a>
-                    </li>
-                </center>
-                <center>
+                </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Webs/page-2.html">الموظفين</a>
                     </li>
-                </center>
-                <center>
+
+                    
                     <li class="nav-item dropdown" id="DropDN">
                         <a class="nav-link" href="Webs/page-1.html" id="navbarDropdown">
                             تبرع
@@ -45,18 +48,15 @@
                             <a class="dropdown-item" href="Webs/page-1.html">Visa عبر</a>
                         </div>
                     </li>
-                </center>
-                <center>
+
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="Webs/page-3.html">عن المبادرة</a>
                     </li>
-                </center>
+
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-outline-dark" id="but">Search</button>
-            </form>
         </div>
+        <a class="navbar-brand" href="#"><img src="img/6.jpg" style="width: 40px;" class="rounded-circle"></a>
     </nav>
     <!-- Slide Link -->
     <div class="sidelink">
@@ -69,7 +69,7 @@
         </ul>
     </div>
     <!-- Slide Show -->
-    <center class="slide-show">
+    <div class="slide-show">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,7 +96,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </center>
+    </div>
     <!-- Contain -->
     <div class="Counters uk-background-secondary">
         <div class="wrapper">
@@ -115,7 +115,7 @@
             <div class="counter col_third end">
                 <i class="fa fa-bug fa-2x"></i>
                 <h2 class="timer count-title count-number" data-to="100" data-speed="3000"></h2>
-                <p class="count-text countText">SomeText GoesHere</p>
+                <p class="count-text countText">بعض الحالات الصعبة</p>
             </div>
         </div>
     </div>

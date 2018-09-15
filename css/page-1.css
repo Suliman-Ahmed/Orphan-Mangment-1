@@ -325,7 +325,7 @@
     border-radius: 10px;
 }
 
-@media(max-width:600px) {
+
     .donation-box {
         width: 100%;
     }

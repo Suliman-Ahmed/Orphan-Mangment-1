@@ -64,6 +64,9 @@ h3{
     .center{
         margin-left: 0;
     }
+    .switch-input:checked + .switch-label-on ~ .switch-selection {
+        left:150px;
+    }
     
     
 }

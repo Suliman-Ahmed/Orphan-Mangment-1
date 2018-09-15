@@ -331,6 +331,6 @@
     }
 
     .switch-input:checked + .switch-label-on ~ .switch-selection {
-        left: 114px;
+        left:450px;
     }
-}
+

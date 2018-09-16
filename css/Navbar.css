@@ -67,45 +67,10 @@ a {
 .sideul li:nth-child(5) {
     background: #bb0000;
 }
-/*** DropDown ***/
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-menu a:hover {
-    background-color: #f1f1f1
-}
-
-#DropDN:hover .dropdown-menu {
-    display: block;
-}
-
-#navbarDropdown {
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-}
-
-.nav-item {
-    padding-left: 4px;
-}
 
 .nav-link:hover{
-    border-bottom: 1px solid crimson;
+    border-bottom: 1px solid rgb(233, 217, 220);
     transition: 0.1s;
 }
 .navbar{

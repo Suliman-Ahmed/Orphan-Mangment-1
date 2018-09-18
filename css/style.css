@@ -141,7 +141,7 @@ h3{
 }
 
 .center{
-    
+    margin-left: auto;
     text-align: center;
     direction: rtl;
 }

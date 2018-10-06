@@ -24,27 +24,9 @@ a {
     color: #fff;
 }
 
-.sideul li:nth-child(1) {
-    background: #3B5998;
+.icon:hover {
+    color: white;
 }
-
-.sideul li:nth-child(2) {
-    background: #55ACEE;
-}
-
-.sideul li:nth-child(3) {
-    background: #707070;
-}
-
-.sideul li:nth-child(4) {
-    background: #eede00;
-}
-
-.sideul li:nth-child(5) {
-    background: #bb0000;
-}
-
-
 .nav-link:hover{
     border-bottom: 1px solid rgb(233, 217, 220);
     transition: 0.1s;

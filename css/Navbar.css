@@ -1,27 +1,3 @@
-.sidelink {
-    position: fixed;
-    top: 50%;
-    right: -230px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
-.TextAlign {
-    text-decoration: none;
-}
-
-.sideul li {
-    list-style: none;
-    display: block;
-    height: auto;
-    width: 250px;
-    background: #ccc;
-    border: 1px solid black;
-    transition: 2s;
-}
-
 a i {
     font-size: 20px;
     padding: 15px;
